@@ -1,0 +1,54 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# User-specific stuff
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.patch
+*.diff
+
+# Flutter / Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ephemeral/
+
+# Android specific
+.gradle/
+android/.gradle/
+android/gradle/dists/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+android/local.properties
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Keys & Certificates
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+# Environment & Secrets
+.env
+*.env
+secrets.json
